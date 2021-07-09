@@ -1,0 +1,21 @@
+server:
+  port: 13000
+spring:
+  application:
+    name: owlmail-pms-elastic
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://127.0.0.1:3306/owlmail?serverTimezone=Asia/Shanghai&useUnicode=true&characterEncoding=utf-8&zeroDateTimeBehavior=convertToNull&useSSL=false&allowPublicKeyRetrieval=true
+    username: root
+    password: 123456
+eureka:
+  instance:
+    prefer-ip-address: true
+    ip-address: 127.0.0.1
+    lease-expiration-duration-in-seconds: 90
+    lease-renewal-interval-in-seconds: 30
+  client:
+    register-with-eureka: false
+    fetch-registry: false
+    service-url:
+      defaultZone: http://rookie:123456@127.0.0.1:20000/eureka/

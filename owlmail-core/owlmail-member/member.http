@@ -1,0 +1,15 @@
+### 1
+POST http://localhost:21000/sysUser/selectOne
+Content-Type: application/x-www-form-urlencoded
+
+id=999&value=content
+### 2
+POST http://localhost:21000/sysUser/selectSysUserByUsername
+Content-Type: application/x-www-form-urlencoded
+
+id=999&value=content
+### 3
+POST http://localhost:21000/sysUser/addUser
+Content-Type: application/x-www-form-urlencoded
+
+username=rookie&password=&email=cailonghao1234@foxmail.com

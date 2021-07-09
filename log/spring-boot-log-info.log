@@ -1,0 +1,13 @@
+2021-06-29 17:41:15.334 INFO  com.hot.dev.HotDevApplication Line:55  - Starting HotDevApplication on 2K30X873XY2ULWV with PID 12368 (H:\20200312springcloud\owlmail\owlmail-test\hot_devtools\target\classes started by Administrator in H:\20200312springcloud\owlmail)
+2021-06-29 17:41:15.338 INFO  com.hot.dev.HotDevApplication Line:651 - No active profile set, falling back to default profiles: default
+2021-06-29 17:41:15.401 INFO  org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor Line:225 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-06-29 17:41:15.403 INFO  org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor Line:225 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-06-29 17:41:16.863 INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer Line:108 - Tomcat initialized with port(s): 8080 (http)
+2021-06-29 17:41:16.887 INFO  org.apache.catalina.core.StandardService Line:173 - Starting service [Tomcat]
+2021-06-29 17:41:16.888 INFO  org.apache.catalina.core.StandardEngine Line:173 - Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-06-29 17:41:16.993 INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Line:173 - Initializing Spring embedded WebApplicationContext
+2021-06-29 17:41:16.994 INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext Line:285 - Root WebApplicationContext: initialization completed in 1588 ms
+2021-06-29 17:41:17.249 INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor Line:181 - Initializing ExecutorService 'applicationTaskExecutor'
+2021-06-29 17:41:17.459 INFO  org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer Line:58  - LiveReload server is running on port 35729
+2021-06-29 17:41:17.516 INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer Line:220 - Tomcat started on port(s): 8080 (http) with context path ''
+2021-06-29 17:41:17.531 INFO  com.hot.dev.HotDevApplication Line:61  - Started HotDevApplication in 3.329 seconds (JVM running for 4.678)

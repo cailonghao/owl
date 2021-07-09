@@ -1,0 +1,20 @@
+### 1
+POST http://localhost:13000/pmsProduct/importAllToElastic
+Content-Type: application/x-www-form-urlencoded
+
+id=999&value=content
+### 2
+POST http://localhost:13000/pmsProduct/getProduct
+Content-Type: application/x-www-form-urlencoded
+
+id=999&value=content
+### 3
+POST http://localhost:13000/pmsProduct/getProductElastic
+Content-Type: application/x-www-form-urlencoded
+
+id=999&value=content
+### 4
+POST http://localhost:13000/pmsProduct/delElasticProduct
+Content-Type: application/x-www-form-urlencoded
+
+id=999&value=content

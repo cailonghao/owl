@@ -1,0 +1,191 @@
+2021-06-30 09:01:00.710 | ERROR | 5832 | [restartedMain] | org.springframework.boot.SpringApplication - Application run failed
+java.lang.IllegalStateException: Logback configuration error detected: 
+ERROR in ch.qos.logback.classic.PatternLayout("null") - Empty or null pattern.
+	at org.springframework.boot.logging.logback.LogbackLoggingSystem.loadConfiguration(LogbackLoggingSystem.java:169)
+	at org.springframework.boot.logging.AbstractLoggingSystem.initializeWithConventions(AbstractLoggingSystem.java:80)
+	at org.springframework.boot.logging.AbstractLoggingSystem.initialize(AbstractLoggingSystem.java:60)
+	at org.springframework.boot.logging.logback.LogbackLoggingSystem.initialize(LogbackLoggingSystem.java:118)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.initializeSystem(LoggingApplicationListener.java:306)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.initialize(LoggingApplicationListener.java:281)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.onApplicationEnvironmentPreparedEvent(LoggingApplicationListener.java:239)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.onApplicationEvent(LoggingApplicationListener.java:216)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.doInvokeListener(SimpleApplicationEventMulticaster.java:172)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:165)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:139)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:127)
+	at org.springframework.boot.context.event.EventPublishingRunListener.environmentPrepared(EventPublishingRunListener.java:80)
+	at org.springframework.boot.SpringApplicationRunListeners.environmentPrepared(SpringApplicationRunListeners.java:53)
+	at org.springframework.boot.SpringApplication.prepareEnvironment(SpringApplication.java:345)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:308)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1237)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1226)
+	at com.hot.dev.HotDevApplication.main(HotDevApplication.java:12)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+[2021-06-30 09:08:15.654][restartedMain][%PARSER_ERROR[c]:%PARSER_ERROR[L]] Application run failed
+java.lang.IllegalStateException: Logback configuration error detected: 
+ERROR in ch.qos.logback.core.pattern.parser.Compiler@262e5e39 - Failed to instantiate converter class [ch.qos.logback.classic.pattern.LoggerConverter] as a composite converter for keyword [c] ch.qos.logback.core.util.IncompatibleClassException
+ERROR in ch.qos.logback.core.pattern.parser.Compiler@262e5e39 - Failed to create converter for [%c] keyword
+ERROR in ch.qos.logback.core.pattern.parser.Compiler@262e5e39 - Failed to instantiate converter class [ch.qos.logback.classic.pattern.LineOfCallerConverter] as a composite converter for keyword [L] ch.qos.logback.core.util.IncompatibleClassException
+ERROR in ch.qos.logback.core.pattern.parser.Compiler@262e5e39 - Failed to create converter for [%L] keyword
+ERROR in ch.qos.logback.core.pattern.parser.Compiler@3835e866 - Failed to instantiate converter class [ch.qos.logback.classic.pattern.LoggerConverter] as a composite converter for keyword [c] ch.qos.logback.core.util.IncompatibleClassException
+ERROR in ch.qos.logback.core.pattern.parser.Compiler@3835e866 - Failed to create converter for [%c] keyword
+ERROR in ch.qos.logback.core.pattern.parser.Compiler@3835e866 - Failed to instantiate converter class [ch.qos.logback.classic.pattern.LineOfCallerConverter] as a composite converter for keyword [L] ch.qos.logback.core.util.IncompatibleClassException
+ERROR in ch.qos.logback.core.pattern.parser.Compiler@3835e866 - Failed to create converter for [%L] keyword
+ERROR in ch.qos.logback.core.pattern.parser.Compiler@6909a22f - Failed to instantiate converter class [ch.qos.logback.classic.pattern.LoggerConverter] as a composite converter for keyword [c] ch.qos.logback.core.util.IncompatibleClassException
+ERROR in ch.qos.logback.core.pattern.parser.Compiler@6909a22f - Failed to create converter for [%c] keyword
+ERROR in ch.qos.logback.core.pattern.parser.Compiler@6909a22f - Failed to instantiate converter class [ch.qos.logback.classic.pattern.LineOfCallerConverter] as a composite converter for keyword [L] ch.qos.logback.core.util.IncompatibleClassException
+ERROR in ch.qos.logback.core.pattern.parser.Compiler@6909a22f - Failed to create converter for [%L] keyword
+ERROR in ch.qos.logback.core.pattern.parser.Compiler@1d2d8429 - Failed to instantiate converter class [ch.qos.logback.classic.pattern.LoggerConverter] as a composite converter for keyword [c] ch.qos.logback.core.util.IncompatibleClassException
+ERROR in ch.qos.logback.core.pattern.parser.Compiler@1d2d8429 - Failed to create converter for [%c] keyword
+ERROR in ch.qos.logback.core.pattern.parser.Compiler@1d2d8429 - Failed to instantiate converter class [ch.qos.logback.classic.pattern.LineOfCallerConverter] as a composite converter for keyword [L] ch.qos.logback.core.util.IncompatibleClassException
+ERROR in ch.qos.logback.core.pattern.parser.Compiler@1d2d8429 - Failed to create converter for [%L] keyword
+ERROR in ch.qos.logback.core.pattern.parser.Compiler@4926de23 - Failed to instantiate converter class [ch.qos.logback.classic.pattern.LoggerConverter] as a composite converter for keyword [c] ch.qos.logback.core.util.IncompatibleClassException
+ERROR in ch.qos.logback.core.pattern.parser.Compiler@4926de23 - Failed to create converter for [%c] keyword
+ERROR in ch.qos.logback.core.pattern.parser.Compiler@4926de23 - Failed to instantiate converter class [ch.qos.logback.classic.pattern.LineOfCallerConverter] as a composite converter for keyword [L] ch.qos.logback.core.util.IncompatibleClassException
+ERROR in ch.qos.logback.core.pattern.parser.Compiler@4926de23 - Failed to create converter for [%L] keyword
+	at org.springframework.boot.logging.logback.LogbackLoggingSystem.loadConfiguration(LogbackLoggingSystem.java:169)
+	at org.springframework.boot.logging.AbstractLoggingSystem.initializeWithConventions(AbstractLoggingSystem.java:80)
+	at org.springframework.boot.logging.AbstractLoggingSystem.initialize(AbstractLoggingSystem.java:60)
+	at org.springframework.boot.logging.logback.LogbackLoggingSystem.initialize(LogbackLoggingSystem.java:118)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.initializeSystem(LoggingApplicationListener.java:306)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.initialize(LoggingApplicationListener.java:281)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.onApplicationEnvironmentPreparedEvent(LoggingApplicationListener.java:239)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.onApplicationEvent(LoggingApplicationListener.java:216)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.doInvokeListener(SimpleApplicationEventMulticaster.java:172)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:165)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:139)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:127)
+	at org.springframework.boot.context.event.EventPublishingRunListener.environmentPrepared(EventPublishingRunListener.java:80)
+	at org.springframework.boot.SpringApplicationRunListeners.environmentPrepared(SpringApplicationRunListeners.java:53)
+	at org.springframework.boot.SpringApplication.prepareEnvironment(SpringApplication.java:345)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:308)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1237)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1226)
+	at com.hot.dev.HotDevApplication.main(HotDevApplication.java:12)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+[2021-06-30 09:08:44.696][restartedMain][%PARSER_ERROR[c]:%PARSER_ERROR[L]] Application run failed
+java.lang.IllegalStateException: Logback configuration error detected: 
+ERROR in ch.qos.logback.core.pattern.parser.Compiler@72aacff3 - Failed to instantiate converter class [ch.qos.logback.classic.pattern.LoggerConverter] as a composite converter for keyword [c] ch.qos.logback.core.util.IncompatibleClassException
+ERROR in ch.qos.logback.core.pattern.parser.Compiler@72aacff3 - Failed to create converter for [%c] keyword
+ERROR in ch.qos.logback.core.pattern.parser.Compiler@72aacff3 - Failed to instantiate converter class [ch.qos.logback.classic.pattern.LineOfCallerConverter] as a composite converter for keyword [L] ch.qos.logback.core.util.IncompatibleClassException
+ERROR in ch.qos.logback.core.pattern.parser.Compiler@72aacff3 - Failed to create converter for [%L] keyword
+ERROR in ch.qos.logback.core.pattern.parser.Compiler@1a323f8d - Failed to instantiate converter class [ch.qos.logback.classic.pattern.LoggerConverter] as a composite converter for keyword [c] ch.qos.logback.core.util.IncompatibleClassException
+ERROR in ch.qos.logback.core.pattern.parser.Compiler@1a323f8d - Failed to create converter for [%c] keyword
+ERROR in ch.qos.logback.core.pattern.parser.Compiler@1a323f8d - Failed to instantiate converter class [ch.qos.logback.classic.pattern.LineOfCallerConverter] as a composite converter for keyword [L] ch.qos.logback.core.util.IncompatibleClassException
+ERROR in ch.qos.logback.core.pattern.parser.Compiler@1a323f8d - Failed to create converter for [%L] keyword
+ERROR in ch.qos.logback.core.pattern.parser.Compiler@18c064b8 - Failed to instantiate converter class [ch.qos.logback.classic.pattern.LoggerConverter] as a composite converter for keyword [c] ch.qos.logback.core.util.IncompatibleClassException
+ERROR in ch.qos.logback.core.pattern.parser.Compiler@18c064b8 - Failed to create converter for [%c] keyword
+ERROR in ch.qos.logback.core.pattern.parser.Compiler@18c064b8 - Failed to instantiate converter class [ch.qos.logback.classic.pattern.LineOfCallerConverter] as a composite converter for keyword [L] ch.qos.logback.core.util.IncompatibleClassException
+ERROR in ch.qos.logback.core.pattern.parser.Compiler@18c064b8 - Failed to create converter for [%L] keyword
+ERROR in ch.qos.logback.core.pattern.parser.Compiler@396ce9c - Failed to instantiate converter class [ch.qos.logback.classic.pattern.LoggerConverter] as a composite converter for keyword [c] ch.qos.logback.core.util.IncompatibleClassException
+ERROR in ch.qos.logback.core.pattern.parser.Compiler@396ce9c - Failed to create converter for [%c] keyword
+ERROR in ch.qos.logback.core.pattern.parser.Compiler@396ce9c - Failed to instantiate converter class [ch.qos.logback.classic.pattern.LineOfCallerConverter] as a composite converter for keyword [L] ch.qos.logback.core.util.IncompatibleClassException
+ERROR in ch.qos.logback.core.pattern.parser.Compiler@396ce9c - Failed to create converter for [%L] keyword
+ERROR in ch.qos.logback.core.pattern.parser.Compiler@27675c4a - Failed to instantiate converter class [ch.qos.logback.classic.pattern.LoggerConverter] as a composite converter for keyword [c] ch.qos.logback.core.util.IncompatibleClassException
+ERROR in ch.qos.logback.core.pattern.parser.Compiler@27675c4a - Failed to create converter for [%c] keyword
+ERROR in ch.qos.logback.core.pattern.parser.Compiler@27675c4a - Failed to instantiate converter class [ch.qos.logback.classic.pattern.LineOfCallerConverter] as a composite converter for keyword [L] ch.qos.logback.core.util.IncompatibleClassException
+ERROR in ch.qos.logback.core.pattern.parser.Compiler@27675c4a - Failed to create converter for [%L] keyword
+	at org.springframework.boot.logging.logback.LogbackLoggingSystem.loadConfiguration(LogbackLoggingSystem.java:169)
+	at org.springframework.boot.logging.AbstractLoggingSystem.initializeWithConventions(AbstractLoggingSystem.java:80)
+	at org.springframework.boot.logging.AbstractLoggingSystem.initialize(AbstractLoggingSystem.java:60)
+	at org.springframework.boot.logging.logback.LogbackLoggingSystem.initialize(LogbackLoggingSystem.java:118)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.initializeSystem(LoggingApplicationListener.java:306)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.initialize(LoggingApplicationListener.java:281)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.onApplicationEnvironmentPreparedEvent(LoggingApplicationListener.java:239)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.onApplicationEvent(LoggingApplicationListener.java:216)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.doInvokeListener(SimpleApplicationEventMulticaster.java:172)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:165)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:139)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:127)
+	at org.springframework.boot.context.event.EventPublishingRunListener.environmentPrepared(EventPublishingRunListener.java:80)
+	at org.springframework.boot.SpringApplicationRunListeners.environmentPrepared(SpringApplicationRunListeners.java:53)
+	at org.springframework.boot.SpringApplication.prepareEnvironment(SpringApplication.java:345)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:308)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1237)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1226)
+	at com.hot.dev.HotDevApplication.main(HotDevApplication.java:12)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+[2021-06-30 09:09:06.915][restartedMain][%PARSER_ERROR[logger]:%PARSER_ERROR[L]] Application run failed
+java.lang.IllegalStateException: Logback configuration error detected: 
+ERROR in ch.qos.logback.core.pattern.parser.Compiler@74d9877e - Failed to instantiate converter class [ch.qos.logback.classic.pattern.LoggerConverter] as a composite converter for keyword [logger] ch.qos.logback.core.util.IncompatibleClassException
+ERROR in ch.qos.logback.core.pattern.parser.Compiler@74d9877e - Failed to create converter for [%logger] keyword
+ERROR in ch.qos.logback.core.pattern.parser.Compiler@74d9877e - Failed to instantiate converter class [ch.qos.logback.classic.pattern.LineOfCallerConverter] as a composite converter for keyword [L] ch.qos.logback.core.util.IncompatibleClassException
+ERROR in ch.qos.logback.core.pattern.parser.Compiler@74d9877e - Failed to create converter for [%L] keyword
+ERROR in ch.qos.logback.core.pattern.parser.Compiler@1b98f6c7 - Failed to instantiate converter class [ch.qos.logback.classic.pattern.LoggerConverter] as a composite converter for keyword [logger] ch.qos.logback.core.util.IncompatibleClassException
+ERROR in ch.qos.logback.core.pattern.parser.Compiler@1b98f6c7 - Failed to create converter for [%logger] keyword
+ERROR in ch.qos.logback.core.pattern.parser.Compiler@1b98f6c7 - Failed to instantiate converter class [ch.qos.logback.classic.pattern.LineOfCallerConverter] as a composite converter for keyword [L] ch.qos.logback.core.util.IncompatibleClassException
+ERROR in ch.qos.logback.core.pattern.parser.Compiler@1b98f6c7 - Failed to create converter for [%L] keyword
+ERROR in ch.qos.logback.core.pattern.parser.Compiler@36031a5b - Failed to instantiate converter class [ch.qos.logback.classic.pattern.LoggerConverter] as a composite converter for keyword [logger] ch.qos.logback.core.util.IncompatibleClassException
+ERROR in ch.qos.logback.core.pattern.parser.Compiler@36031a5b - Failed to create converter for [%logger] keyword
+ERROR in ch.qos.logback.core.pattern.parser.Compiler@36031a5b - Failed to instantiate converter class [ch.qos.logback.classic.pattern.LineOfCallerConverter] as a composite converter for keyword [L] ch.qos.logback.core.util.IncompatibleClassException
+ERROR in ch.qos.logback.core.pattern.parser.Compiler@36031a5b - Failed to create converter for [%L] keyword
+ERROR in ch.qos.logback.core.pattern.parser.Compiler@57c225d4 - Failed to instantiate converter class [ch.qos.logback.classic.pattern.LoggerConverter] as a composite converter for keyword [logger] ch.qos.logback.core.util.IncompatibleClassException
+ERROR in ch.qos.logback.core.pattern.parser.Compiler@57c225d4 - Failed to create converter for [%logger] keyword
+ERROR in ch.qos.logback.core.pattern.parser.Compiler@57c225d4 - Failed to instantiate converter class [ch.qos.logback.classic.pattern.LineOfCallerConverter] as a composite converter for keyword [L] ch.qos.logback.core.util.IncompatibleClassException
+ERROR in ch.qos.logback.core.pattern.parser.Compiler@57c225d4 - Failed to create converter for [%L] keyword
+ERROR in ch.qos.logback.core.pattern.parser.Compiler@6f98ba25 - Failed to instantiate converter class [ch.qos.logback.classic.pattern.LoggerConverter] as a composite converter for keyword [logger] ch.qos.logback.core.util.IncompatibleClassException
+ERROR in ch.qos.logback.core.pattern.parser.Compiler@6f98ba25 - Failed to create converter for [%logger] keyword
+ERROR in ch.qos.logback.core.pattern.parser.Compiler@6f98ba25 - Failed to instantiate converter class [ch.qos.logback.classic.pattern.LineOfCallerConverter] as a composite converter for keyword [L] ch.qos.logback.core.util.IncompatibleClassException
+ERROR in ch.qos.logback.core.pattern.parser.Compiler@6f98ba25 - Failed to create converter for [%L] keyword
+	at org.springframework.boot.logging.logback.LogbackLoggingSystem.loadConfiguration(LogbackLoggingSystem.java:169)
+	at org.springframework.boot.logging.AbstractLoggingSystem.initializeWithConventions(AbstractLoggingSystem.java:80)
+	at org.springframework.boot.logging.AbstractLoggingSystem.initialize(AbstractLoggingSystem.java:60)
+	at org.springframework.boot.logging.logback.LogbackLoggingSystem.initialize(LogbackLoggingSystem.java:118)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.initializeSystem(LoggingApplicationListener.java:306)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.initialize(LoggingApplicationListener.java:281)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.onApplicationEnvironmentPreparedEvent(LoggingApplicationListener.java:239)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.onApplicationEvent(LoggingApplicationListener.java:216)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.doInvokeListener(SimpleApplicationEventMulticaster.java:172)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:165)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:139)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:127)
+	at org.springframework.boot.context.event.EventPublishingRunListener.environmentPrepared(EventPublishingRunListener.java:80)
+	at org.springframework.boot.SpringApplicationRunListeners.environmentPrepared(SpringApplicationRunListeners.java:53)
+	at org.springframework.boot.SpringApplication.prepareEnvironment(SpringApplication.java:345)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:308)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1237)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1226)
+	at com.hot.dev.HotDevApplication.main(HotDevApplication.java:12)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+log_pattern_IS_UNDEFINEDjava.lang.IllegalStateException: Logback configuration error detected: 
+ERROR in ch.qos.logback.core.joran.spi.Interpreter@11:137 - RuntimeException in Action for tag [property] java.lang.IllegalArgumentException: All tokens consumed but was expecting "}"
+	at org.springframework.boot.logging.logback.LogbackLoggingSystem.loadConfiguration(LogbackLoggingSystem.java:169)
+	at org.springframework.boot.logging.AbstractLoggingSystem.initializeWithConventions(AbstractLoggingSystem.java:80)
+	at org.springframework.boot.logging.AbstractLoggingSystem.initialize(AbstractLoggingSystem.java:60)
+	at org.springframework.boot.logging.logback.LogbackLoggingSystem.initialize(LogbackLoggingSystem.java:118)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.initializeSystem(LoggingApplicationListener.java:306)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.initialize(LoggingApplicationListener.java:281)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.onApplicationEnvironmentPreparedEvent(LoggingApplicationListener.java:239)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.onApplicationEvent(LoggingApplicationListener.java:216)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.doInvokeListener(SimpleApplicationEventMulticaster.java:172)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:165)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:139)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:127)
+	at org.springframework.boot.context.event.EventPublishingRunListener.environmentPrepared(EventPublishingRunListener.java:80)
+	at org.springframework.boot.SpringApplicationRunListeners.environmentPrepared(SpringApplicationRunListeners.java:53)
+	at org.springframework.boot.SpringApplication.prepareEnvironment(SpringApplication.java:345)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:308)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1237)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1226)
+	at com.hot.dev.HotDevApplication.main(HotDevApplication.java:12)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
